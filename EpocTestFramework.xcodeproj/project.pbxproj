@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD29E071532E239001C1602 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD29E061532E239001C1602 /* UIKit.framework */; };
+		2FD29E091532E239001C1602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD29E081532E239001C1602 /* Foundation.framework */; };
+		2FD29E0B1532E239001C1602 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD29E0A1532E239001C1602 /* CoreGraphics.framework */; };
+		2FD29E111532E239001C1602 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FD29E0F1532E239001C1602 /* InfoPlist.strings */; };
+		2FD29E131532E239001C1602 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD29E121532E239001C1602 /* main.m */; };
+		2FD29E171532E23A001C1602 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD29E161532E23A001C1602 /* AppDelegate.m */; };
+		2FD29E1F1532E23A001C1602 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD29E1E1532E23A001C1602 /* SenTestingKit.framework */; };
+		2FD29E201532E23A001C1602 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD29E061532E239001C1602 /* UIKit.framework */; };
+		2FD29E211532E23A001C1602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD29E081532E239001C1602 /* Foundation.framework */; };
+		2FD29E291532E23A001C1602 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FD29E271532E23A001C1602 /* InfoPlist.strings */; };
+		2FD29E2C1532E23A001C1602 /* EpocTestFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD29E2B1532E23A001C1602 /* EpocTestFrameworkTests.m */; };
+		2FD29E371532E284001C1602 /* DataDrivenInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD29E361532E284001C1602 /* DataDrivenInput.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FD29E221532E23A001C1602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FD29DF91532E239001C1602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD29E011532E239001C1602;
+			remoteInfo = EpocTestFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FD29E021532E239001C1602 /* EpocTestFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpocTestFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD29E061532E239001C1602 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FD29E081532E239001C1602 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FD29E0A1532E239001C1602 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FD29E0E1532E239001C1602 /* EpocTestFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EpocTestFramework-Info.plist"; sourceTree = "<group>"; };
+		2FD29E101532E239001C1602 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FD29E121532E239001C1602 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FD29E141532E239001C1602 /* EpocTestFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EpocTestFramework-Prefix.pch"; sourceTree = "<group>"; };
+		2FD29E151532E23A001C1602 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FD29E161532E23A001C1602 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FD29E1D1532E23A001C1602 /* EpocTestFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpocTestFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD29E1E1532E23A001C1602 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2FD29E261532E23A001C1602 /* EpocTestFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EpocTestFrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		2FD29E281532E23A001C1602 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FD29E2A1532E23A001C1602 /* EpocTestFrameworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpocTestFrameworkTests.h; sourceTree = "<group>"; };
+		2FD29E2B1532E23A001C1602 /* EpocTestFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpocTestFrameworkTests.m; sourceTree = "<group>"; };
+		2FD29E351532E284001C1602 /* DataDrivenInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataDrivenInput.h; sourceTree = "<group>"; };
+		2FD29E361532E284001C1602 /* DataDrivenInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataDrivenInput.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD29DFF1532E239001C1602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD29E071532E239001C1602 /* UIKit.framework in Frameworks */,
+				2FD29E091532E239001C1602 /* Foundation.framework in Frameworks */,
+				2FD29E0B1532E239001C1602 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD29E191532E23A001C1602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD29E1F1532E23A001C1602 /* SenTestingKit.framework in Frameworks */,
+				2FD29E201532E23A001C1602 /* UIKit.framework in Frameworks */,
+				2FD29E211532E23A001C1602 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD29DF71532E239001C1602 = {
+			isa = PBXGroup;
+			children = (
+				2FD29E0C1532E239001C1602 /* EpocTestFramework */,
+				2FD29E241532E23A001C1602 /* EpocTestFrameworkTests */,
+				2FD29E051532E239001C1602 /* Frameworks */,
+				2FD29E031532E239001C1602 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD29E031532E239001C1602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD29E021532E239001C1602 /* EpocTestFramework.app */,
+				2FD29E1D1532E23A001C1602 /* EpocTestFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD29E051532E239001C1602 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FD29E061532E239001C1602 /* UIKit.framework */,
+				2FD29E081532E239001C1602 /* Foundation.framework */,
+				2FD29E0A1532E239001C1602 /* CoreGraphics.framework */,
+				2FD29E1E1532E23A001C1602 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FD29E0C1532E239001C1602 /* EpocTestFramework */ = {
+			isa = PBXGroup;
+			children = (
+				2FD29E151532E23A001C1602 /* AppDelegate.h */,
+				2FD29E161532E23A001C1602 /* AppDelegate.m */,
+				2FD29E0D1532E239001C1602 /* Supporting Files */,
+				2FD29E351532E284001C1602 /* DataDrivenInput.h */,
+				2FD29E361532E284001C1602 /* DataDrivenInput.m */,
+			);
+			path = EpocTestFramework;
+			sourceTree = "<group>";
+		};
+		2FD29E0D1532E239001C1602 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD29E0E1532E239001C1602 /* EpocTestFramework-Info.plist */,
+				2FD29E0F1532E239001C1602 /* InfoPlist.strings */,
+				2FD29E121532E239001C1602 /* main.m */,
+				2FD29E141532E239001C1602 /* EpocTestFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FD29E241532E23A001C1602 /* EpocTestFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FD29E2A1532E23A001C1602 /* EpocTestFrameworkTests.h */,
+				2FD29E2B1532E23A001C1602 /* EpocTestFrameworkTests.m */,
+				2FD29E251532E23A001C1602 /* Supporting Files */,
+			);
+			path = EpocTestFrameworkTests;
+			sourceTree = "<group>";
+		};
+		2FD29E251532E23A001C1602 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD29E261532E23A001C1602 /* EpocTestFrameworkTests-Info.plist */,
+				2FD29E271532E23A001C1602 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD29E011532E239001C1602 /* EpocTestFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD29E2F1532E23A001C1602 /* Build configuration list for PBXNativeTarget "EpocTestFramework" */;
+			buildPhases = (
+				2FD29DFE1532E239001C1602 /* Sources */,
+				2FD29DFF1532E239001C1602 /* Frameworks */,
+				2FD29E001532E239001C1602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpocTestFramework;
+			productName = EpocTestFramework;
+			productReference = 2FD29E021532E239001C1602 /* EpocTestFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FD29E1C1532E23A001C1602 /* EpocTestFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD29E321532E23A001C1602 /* Build configuration list for PBXNativeTarget "EpocTestFrameworkTests" */;
+			buildPhases = (
+				2FD29E181532E23A001C1602 /* Sources */,
+				2FD29E191532E23A001C1602 /* Frameworks */,
+				2FD29E1A1532E23A001C1602 /* Resources */,
+				2FD29E1B1532E23A001C1602 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FD29E231532E23A001C1602 /* PBXTargetDependency */,
+			);
+			name = EpocTestFrameworkTests;
+			productName = EpocTestFrameworkTests;
+			productReference = 2FD29E1D1532E23A001C1602 /* EpocTestFrameworkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD29DF91532E239001C1602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2FD29DFC1532E239001C1602 /* Build configuration list for PBXProject "EpocTestFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FD29DF71532E239001C1602;
+			productRefGroup = 2FD29E031532E239001C1602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD29E011532E239001C1602 /* EpocTestFramework */,
+				2FD29E1C1532E23A001C1602 /* EpocTestFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD29E001532E239001C1602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD29E111532E239001C1602 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD29E1A1532E23A001C1602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD29E291532E23A001C1602 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FD29E1B1532E23A001C1602 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD29DFE1532E239001C1602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD29E131532E239001C1602 /* main.m in Sources */,
+				2FD29E171532E23A001C1602 /* AppDelegate.m in Sources */,
+				2FD29E371532E284001C1602 /* DataDrivenInput.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD29E181532E23A001C1602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD29E2C1532E23A001C1602 /* EpocTestFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FD29E231532E23A001C1602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FD29E011532E239001C1602 /* EpocTestFramework */;
+			targetProxy = 2FD29E221532E23A001C1602 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FD29E0F1532E239001C1602 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD29E101532E239001C1602 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FD29E271532E23A001C1602 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD29E281532E23A001C1602 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FD29E2D1532E23A001C1602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FD29E2E1532E23A001C1602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD29E301532E23A001C1602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EpocTestFramework/EpocTestFramework-Prefix.pch";
+				INFOPLIST_FILE = "EpocTestFramework/EpocTestFramework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FD29E311532E23A001C1602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EpocTestFramework/EpocTestFramework-Prefix.pch";
+				INFOPLIST_FILE = "EpocTestFramework/EpocTestFramework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2FD29E331532E23A001C1602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EpocTestFramework.app/EpocTestFramework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EpocTestFramework/EpocTestFramework-Prefix.pch";
+				INFOPLIST_FILE = "EpocTestFrameworkTests/EpocTestFrameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2FD29E341532E23A001C1602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EpocTestFramework.app/EpocTestFramework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EpocTestFramework/EpocTestFramework-Prefix.pch";
+				INFOPLIST_FILE = "EpocTestFrameworkTests/EpocTestFrameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD29DFC1532E239001C1602 /* Build configuration list for PBXProject "EpocTestFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD29E2D1532E23A001C1602 /* Debug */,
+				2FD29E2E1532E23A001C1602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD29E2F1532E23A001C1602 /* Build configuration list for PBXNativeTarget "EpocTestFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD29E301532E23A001C1602 /* Debug */,
+				2FD29E311532E23A001C1602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FD29E321532E23A001C1602 /* Build configuration list for PBXNativeTarget "EpocTestFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD29E331532E23A001C1602 /* Debug */,
+				2FD29E341532E23A001C1602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FD29DF91532E239001C1602 /* Project object */;
+}
